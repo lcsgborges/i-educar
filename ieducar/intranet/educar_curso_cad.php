@@ -295,7 +295,7 @@ return new class extends clsCadastro
             $this->multi_seriado = is_null(value: $this->multi_seriado) ? 0 : 1;
             $this->importar_curso_pre_matricula = is_null(value: $this->importar_curso_pre_matricula) ? 0 : 1;
             $this->bloquear_novas_matriculas = is_null(value: $this->bloquear_novas_matriculas) ? 0 : 1;
-
+            
             $obj = new clsPmieducarCurso(
                 ref_usuario_cad: $this->pessoa_logada,
                 ref_cod_tipo_regime: $this->ref_cod_tipo_regime,
